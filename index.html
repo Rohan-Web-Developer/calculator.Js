@@ -1,0 +1,39 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="viewport"
+      content="wonclickth='device-width', initial-scale=1.0"
+    />
+    <title>ماشین حساب</title>
+  </head>
+  <link rel="stylesheet" href="style.css">
+  <body>
+    <label for="darkmod">حالت دارک مود : <input type="checkbox" id="darkmod" onchange="dark()"></label>
+    <h2>ابتدا عداد را وارد کنید</h2>
+    <div class="container">
+      
+      <input type="text" id="Nun1" placeholder="Enter Number 1" />
+      <p id="lbl">+</p>
+      <input type="text" id="Num2" placeholder="Enter Number 2" />
+      <p id="result"></p>
+      <br />
+      <div class="buttens">
+        <button onclick="Sun()">+</button>
+        <button onclick="Min()">-</button>
+        <button onclick="zarb()">×</button><br />
+        <button onclick="tghsim()">÷</button>
+        <button onclick="jazr()">√</button>
+        <button onclick="Pover()">^</button>
+        <br />
+        <button onclick="Sin()">Sin</button>
+        <button onclick="Cos()">Cos</button>
+        <button onclick="Tan()">Tan</button>
+        <br />
+        <button onclick="Clear()" style="background-color: red">C</button>
+      </div>
+    </div>
+  </body>
+  <script src="Sctipt.js"></script>
+</html>
